@@ -7,7 +7,7 @@ void main(){
 	int n;
 	cout<<"Enter the size of an array:";
 	cin>>n;
-	int arr[10];
+	int arr[n];
 	cout<<"Enter the elements in an sorted manner and of equal interval:\n";
 	for(int i=0;i<n;i++)
 		cin>>arr[i];
